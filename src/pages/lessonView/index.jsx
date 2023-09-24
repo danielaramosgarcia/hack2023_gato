@@ -18,7 +18,7 @@ function LessonView() {
           />
         </Link>
         <div className={styles.containerTitulo}>
-          <h1>Emprendimiento 101</h1>
+          <h1>Emprendimiento</h1>
         </div>
         <Link to='/' className={styles.botonBack} style={{ opacity: 0 }}>
           <TiArrowBack
@@ -28,15 +28,41 @@ function LessonView() {
       </div>
       <div className={styles.containerRoad}>
         <div className={styles.modules}>
-          <CirculoComponent link='/sesion' imageSource={mate} text='Circle 1' />
+          <CirculoComponent
+            link='/sesion'
+            imageSource={mate}
+            text='Introduccion'
+          />
           <div className={styles.spacer} />
-          <CirculoComponent link='/sesion' imageSource={mate} text='Circle 2' />
+          <CirculoComponent
+            link='/sesion'
+            imageSource={mate}
+            text='Visión y estrategia'
+          />
           <div className={styles.spacer} />
-          <CirculoComponent link='/sesion' imageSource={mate} text='Circle 3' />
+          <CirculoComponent
+            link='/sesion'
+            imageSource={mate}
+            text='Propuesta de valor'
+          />
           <div className={styles.spacer} />
-          <CirculoComponent link='/sesion' imageSource={mate} text='Circle 4' />
+          <CirculoComponent
+            link='/sesion'
+            imageSource={mate}
+            text='Innovación ágil'
+          />
           <div className={styles.spacer} />
-          <CirculoComponent link='/sesion' imageSource={mate} text='Circle 4' />
+          <CirculoComponent
+            link='/sesion'
+            imageSource={mate}
+            text='Negocio sustentable'
+          />
+          <div className={styles.spacer} />
+          <CirculoComponent
+            link='/sesion'
+            imageSource={mate}
+            text='Organización'
+          />
         </div>
       </div>
 

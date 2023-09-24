@@ -4,6 +4,7 @@ import MainView from "./pages/mainView";
 import LessonView from "./pages/lessonView";
 import NewAccountView from "./pages/newAccountView";
 import Sesion from "./pages/Sesion";
+import Quiz from "./pages/Quiz";
 
 const router = createBrowserRouter([
   {
@@ -20,14 +21,16 @@ const router = createBrowserRouter([
   },
   {
     path: "/sesion",
-    element: <Sesion/>,
+    element: <Sesion />,
+  },
+  {
+    path: "/quiz",
+    element: <Quiz />,
   },
 ]);
 
 function App() {
   return <RouterProvider router={router} />;
 }
-
-
 
 export default App;
