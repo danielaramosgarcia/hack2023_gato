@@ -62,3 +62,31 @@
 .inputRow input {
   width: 95%;
 }
+
+
+/* Descubrir.module.css */
+
+/* Style for user messages */
+.userMessage {
+  background-color: #e5e5e5; /* Set your desired background color */
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 10px;
+  text-align: left;
+  width: 90%;
+  word-wrap: break-word;
+  /* Add other styles as needed */
+}
+
+/* Style for assistant messages */
+.assistantMessage {
+  background-color: #fc8b2d; /* Set your desired background color */
+  color: white; /* Set your desired text color */
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 10px;
+  text-align: left;
+  width: 90%;
+  word-wrap: break-word;
+  /* Add other styles as needed */
+}
