@@ -68,50 +68,11 @@
   .containerRoad {
     height: 100%;
     width: auto;
+    display: flex;
+    padding: 20vh 2vh;
+    flex-direction: row; /* Arrange child elements horizontally */
     background-image: url('../../assets/calle.jpg');
     background-size: auto auto; /* Keep original height and repeat horizontally */
     background-repeat: repeat-x; /* Repeat the image horizontally */
     background-position: center center; /* Center the background image both horizontally and vertically */
-
-  }
-.circuloContainer{
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-  
-  .circuloSesion{
-    width: 135px;
-    height: 134px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    border-radius: 9999px;
-  }
-  
-  .circulo1Sesion{
-    background: #D6D5D2;
-  }
-  
-  .circulo2Sesion{
-    background: #FBCF34;
-  }
-  
-  .circulo3Sesion{
-    width: 120.38px;
-    height: 119.89px;
-    left: 6.75px;
-    top: 5.88px;
-    position: absolute;
-    background: white;
-    border-radius: 9999px;
-  }
-  
-  .imageSesion{
-    width: 108px;
-    height: 103.44px;
-    left: 13.50px;
-    top: 15.28px;
-    position: absolute;
-    border-radius: 9999px;
   }

@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./styles.module.css";
 import { TiArrowBack } from "react-icons/ti";
 import mate from "../../assets/mat.jpg";
-
+import calle from "../../assets/calle.jpg";
+import CirculoComponent from "../../components/navbar/CirculoComponent";
 
 function LessonView() {
   return(
@@ -20,13 +21,10 @@ function LessonView() {
       </button>
     </div>
     <div class={styles.containerRoad}>
-    <div className={`${styles.circuloContainer}`}>
-      <div className={`${styles.circuloSesion} ${styles.circulo1Sesion}`}></div>
-      <div className={`${styles.circuloSesion} ${styles.circulo2Sesion}`}></div>
-      <div className={`${styles.circuloSesion} ${styles.circulo3Sesion}`}></div>
-      <img className={styles.imageSesion} src={mate} />
-    </div>  
-    {/* <img src={calle} alt='logo' className={styles.road} /> */}
+    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */} 
+    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */}
+    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */}
+    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */}
     </div>
     <div>
 
