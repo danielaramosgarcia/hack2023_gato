@@ -1,7 +1,6 @@
-import React from "react";
-
+import styles from "./styles.module.css";
 function MainView() {
-  return <div>MainView</div>;
+  return <div className={styles.container}>MainView</div>;
 }
 
 export default MainView;
