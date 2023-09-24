@@ -1,0 +1,117 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Set the container to take up the entire viewport height */
+  }
+  
+.header {
+    padding: 40px 0px 10px 0px;
+    height: 10%;
+    width: 100%;
+    flex-direction: row;
+    background-color: white;
+    display: flex;
+    align-items: center; /* Vertically align items in the center */
+    justify-content: space-between; /* Space between the button and container */
+    padding: 10px;
+    
+  }
+
+  
+  .botonBack {
+    width: 5%; 
+    height: 50%; 
+    background: var(--accent-color); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    border-color: var(--accent-color);
+  }
+
+  .containerTitulo {
+    flex-direction: column;
+    height: 15%;
+    width: 30%;
+    border-radius: 11px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    display: flex;
+    align-items: center; /* Horizontally center items */
+    text-align: center; /* Center text */
+    padding: 30px;
+  }
+  .containerTitulo p {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    width: 887px;
+    height: 506px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+  }
+
+  .titulo{
+    size: 10px;
+  }
+
+  .containerRoad {
+    height: 100%;
+    width: auto;
+    background-image: url('../../assets/calle.jpg');
+    background-size: auto auto; /* Keep original height and repeat horizontally */
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+
+  }
+.circuloContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .circuloSesion{
+    width: 135px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 9999px;
+  }
+  
+  .circulo1Sesion{
+    background: #D6D5D2;
+  }
+  
+  .circulo2Sesion{
+    background: #FBCF34;
+  }
+  
+  .circulo3Sesion{
+    width: 120.38px;
+    height: 119.89px;
+    left: 6.75px;
+    top: 5.88px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+  }
+  
+  .imageSesion{
+    width: 108px;
+    height: 103.44px;
+    left: 13.50px;
+    top: 15.28px;
+    position: absolute;
+    border-radius: 9999px;
+  }
