@@ -1,0 +1,10 @@
+.container {
+  /* background-color: red; */
+}
+.recent {
+  margin-left: 40px;
+}
+.recent h2 {
+  font-size: 32px;
+  color: var(--titles-color);
+}
