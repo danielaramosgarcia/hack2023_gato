@@ -6,30 +6,29 @@ import calle from "../../assets/calle.jpg";
 import CirculoComponent from "../../components/navbar/CirculoComponent";
 
 function LessonView() {
-  return(
-<div class={styles.body}>
-    <div class={styles.header}> 
-      <button className={styles.botonBack} >
-      <TiArrowBack style={{color:"white", width: "100%", height: "100%" }}/>
-      </button>
-      <div class={styles.containerTitulo}>
-        <p >Algebra 1</p>
-        {/* ahi debe de ir la sesion que se seleccione */}
+  return (
+    <div className={styles.body}>
+      <div className={styles.header}>
+        <button className={styles.botonBack}>
+          <TiArrowBack style={{ color: "white", width: "100%", height: "100%" }} />
+        </button>
+        <div className={styles.containerTitulo}>
+          <p>Algebra 1</p>
+          {/* ahi debe de ir la sesion que se seleccione */}
+        </div>
+        <button className={styles.botonBack}>
+          <TiArrowBack style={{ color: "white", width: "100%", height: "100%" }} />
+        </button>
       </div>
-      <button className={styles.botonBack} >
-      <TiArrowBack style={{color:"white", width: "100%", height: "100%" }}/>
-      </button>
-    </div>
-    <div class={styles.containerRoad}>
-    <CirculoComponent imageSource={mate} text="Circle 1"  /> {/* Change the image source as needed */} 
-    <CirculoComponent imageSource={mate}text="Circle 1" /> {/* Change the image source as needed */}
-    <CirculoComponent imageSource={mate} text="Circle 1"/> {/* Change the image source as needed */}
-    <CirculoComponent imageSource={mate} text="Circle 1"  /> {/* Change the image source as needed */}
-    </div>
-    <div>
-    <div class={styles.progress}>
-    </div>
-    </div>
+      <div className={styles.containerRoad}>
+        <CirculoComponent imageSource={mate} text="Circle 1" /> {/* Change the image source as needed */}
+        <CirculoComponent imageSource={mate} text="Circle 2" /> {/* Change the image source as needed */}
+        <CirculoComponent imageSource={mate} text="Circle 3" /> {/* Change the image source as needed */}
+        <CirculoComponent imageSource={mate} text="Circle 4" /> {/* Change the image source as needed */}
+      </div>
+      <div>
+        <div className={styles.progress}></div>
+      </div>
     </div>
   );
 }
