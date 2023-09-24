@@ -2,6 +2,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainView from "./pages/mainView";
 import LessonView from "./pages/lessonView";
+import NewAccountView from "./pages/newAccountView";
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/lesson",
     element: <LessonView />,
+  },
+  {
+    path: "/newAccount",
+    element: <NewAccountView />,
   },
 ]);
 
