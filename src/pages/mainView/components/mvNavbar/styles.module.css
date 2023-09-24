@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  background-color: var(--accent-color);
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.options {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  height: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.options:hover {
+  border-bottom: 2px solid #ffffff;
+}

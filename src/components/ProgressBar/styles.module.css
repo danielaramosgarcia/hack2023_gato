@@ -1,0 +1,23 @@
+.container {
+  height: 15px;
+  background-color: #d9d9d9;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.progress {
+  height: 15px;
+  background-color: var(--accent-color);
+  border-radius: 20px;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexEnd p {
+  margin: 5px 0px 0px 0px;
+  color: var(--text-color);
+  font-weight: 600;
+}
