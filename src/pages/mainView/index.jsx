@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import MiComunidad from "./components/MiComunidad";
 import MiProgreso from "./components/MiProgreso";
 import Descubrir from "./components/Descubrir";
+import Modal from "../../components/modal";
 function MainView() {
   const [index, setIndex] = useState(0);
   const [component, setComponent] = useState(<MisBases />);
@@ -32,12 +33,15 @@ function MainView() {
   }, [index]);
 
   return (
-    <div className={styles.container}>
-      <Navbar />
-      <MvNavbar setIndex={setIndex} />
-      {component}
-      <Link to={"/login"}>login</Link>
-    </div>
+    <>
+      <Modal />
+      <div className={styles.container}>
+        <Navbar />
+        <MvNavbar setIndex={setIndex} />
+        {component}
+        <Link to={"/login"}>login</Link>
+      </div>
+    </>
   );
 }
 
