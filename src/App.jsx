@@ -6,6 +6,7 @@ import NewAccountView from "./pages/newAccountView";
 import Sesion from "./pages/Sesion";
 import Quiz from "./pages/Quiz";
 import GptClone from "./pages/gptClone";
+import Congrats from "./pages/Congrats";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/chat",
     element: <GptClone />,
+  },
+  {
+    path: "/congrats",
+    element: <Congrats />,
   },
 ]);
 
