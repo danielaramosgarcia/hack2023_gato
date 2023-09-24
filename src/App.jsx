@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainView from "./pages/mainView";
 import LessonView from "./pages/lessonView";
 import NewAccountView from "./pages/newAccountView";
+import Sesion from "./pages/Sesion";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <NewAccountView />,
+  },
+  {
+    path: "/sesion",
+    element: <Sesion/>,
   },
 ]);
 

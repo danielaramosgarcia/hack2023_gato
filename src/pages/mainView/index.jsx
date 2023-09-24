@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import MiComunidad from "./components/MiComunidad";
 import MiProgreso from "./components/MiProgreso";
 import Descubrir from "./components/Descubrir";
+
 function MainView() {
   const [index, setIndex] = useState(0);
   const [component, setComponent] = useState(<MisBases />);
