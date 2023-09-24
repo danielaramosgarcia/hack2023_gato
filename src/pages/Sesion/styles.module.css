@@ -73,6 +73,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  position: fixed;
+  right: 5px;
+  bottom: -8px;
+  scale: .5;
 }
 
 .endButtonImg {
