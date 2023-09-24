@@ -2,10 +2,12 @@ import React from "react";
 import styles from "./styles.module.css";
 import KnowledgeBase from "./components/knowledgeBase";
 
-function MyBasesModule() {
+function MyBasesModule({ setOpen }) {
   return (
     <div className={styles.container}>
-      <div className={styles.addKnowledge}>+</div>
+      <div className={styles.addKnowledge} onClick={() => setOpen(true)}>
+        +
+      </div>
       {knowledgeBases.map((kb, index) => {
         return (
           <KnowledgeBase

@@ -12,11 +12,12 @@ import Modal from "../../components/modal";
 function MainView() {
   const [index, setIndex] = useState(0);
   const [component, setComponent] = useState(<MisBases />);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     switch (index) {
       case 0:
-        setComponent(<MisBases />);
+        setComponent(<MisBases setOpen={setOpen} />);
         break;
       case 1:
         setComponent(<MiComunidad />);
@@ -33,9 +34,15 @@ function MainView() {
     }
   }, [index]);
 
+  useEffect(() => {
+    console.log("====================================");
+    console.log("open: ", open);
+    console.log("====================================");
+  }, [open]);
+
   return (
     <>
-      <Modal />
+      {open && <Modal setOpen={setOpen} />}
       <div className={styles.container}>
         <Navbar />
         <MvNavbar setIndex={setIndex} />

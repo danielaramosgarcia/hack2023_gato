@@ -1,0 +1,26 @@
+.container {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  width: 70%;
+  padding: 15px;
+  display: flex;
+}
+
+.options {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--titles-color);
+  font-weight: 600;
+  font-size: 24px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(182, 182, 182);
+  height: (24 * 1.4) px;
+  border-radius: 11px;
+  color: white;
+}
