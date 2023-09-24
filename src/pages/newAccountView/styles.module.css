@@ -36,4 +36,5 @@
 
 .chat {
   color: var(--text-color);
+  margin-left: 0px;
 }

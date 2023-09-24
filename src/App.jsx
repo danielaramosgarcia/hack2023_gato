@@ -23,4 +23,7 @@ function App() {
   return <RouterProvider router={router} />;
 }
 
+// import { TiArrowBack } from "react-icons/ti";
+// <TiArrowBack style={{ height: '200px', width: 'auto', color: 'blue' }} />
+
 export default App;
