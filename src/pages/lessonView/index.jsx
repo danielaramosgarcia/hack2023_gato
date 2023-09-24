@@ -10,24 +10,25 @@ function LessonView() {
 <div class={styles.body}>
     <div class={styles.header}> 
       <button className={styles.botonBack} >
-      <TiArrowBack style={{color:"white" }}/>
+      <TiArrowBack style={{color:"white", width: "100%", height: "100%" }}/>
       </button>
       <div class={styles.containerTitulo}>
         <p >Algebra 1</p>
         {/* ahi debe de ir la sesion que se seleccione */}
       </div>
       <button className={styles.botonBack} >
-      <TiArrowBack style={{color:"white" }}/>
+      <TiArrowBack style={{color:"white", width: "100%", height: "100%" }}/>
       </button>
     </div>
     <div class={styles.containerRoad}>
-    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */} 
-    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */}
-    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */}
-    <CirculoComponent imageSource={mate} /> {/* Change the image source as needed */}
+    <CirculoComponent imageSource={mate} text="Circle 1"  /> {/* Change the image source as needed */} 
+    <CirculoComponent imageSource={mate}text="Circle 1" /> {/* Change the image source as needed */}
+    <CirculoComponent imageSource={mate} text="Circle 1"/> {/* Change the image source as needed */}
+    <CirculoComponent imageSource={mate} text="Circle 1"  /> {/* Change the image source as needed */}
     </div>
     <div>
-
+    <div class={styles.progress}>
+    </div>
     </div>
     </div>
   );
