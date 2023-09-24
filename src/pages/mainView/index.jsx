@@ -47,7 +47,6 @@ function MainView() {
         <Navbar />
         <MvNavbar setIndex={setIndex} />
         {component}
-        <Link to={"/login"}>login</Link>
       </div>
     </>
   );
