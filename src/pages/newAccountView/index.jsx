@@ -1,7 +1,7 @@
-import React from "react";
 import styles from "./styles.module.css";
 import gatito from "../../assets/gatito.png";
 import piquito from "../../assets/svg/piquito.svg";
+import { Link } from "react-router-dom";
 
 function NewAccountView() {
   return (
@@ -16,8 +16,15 @@ function NewAccountView() {
           </div>
         </div>
         <div className={styles.row}>
-          <h3>Me podrías decir tu nombre?</h3>
-          <input type='text' />
+          <div className={styles.question}>
+            <h3>Me podrías decir tu nombre?</h3>
+            <input type='text' />
+          </div>
+        </div>
+        <div className={styles.buttonRow}>
+          <Link className={styles.buttonLink} to={"/"}>
+            Continuar
+          </Link>
         </div>
       </div>
     </div>
