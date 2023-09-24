@@ -23,10 +23,10 @@ function MainView() {
         setComponent(<MiComunidad />);
         break;
       case 2:
-        setComponent(<MiProgreso />);
+        setComponent(<Descubrir />);
         break;
       case 3:
-        setComponent(<Descubrir />);
+        setComponent(<MiProgreso />);
         break;
       default:
         setComponent(<MisBases />);
