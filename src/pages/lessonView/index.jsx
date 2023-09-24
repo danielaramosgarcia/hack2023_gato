@@ -24,11 +24,14 @@ function LessonView() {
         </Link>
       </div>
       <div className={styles.containerRoad}>
+      <img className={styles.image} src={gatito}/>
+
         <CirculoComponent link="/sesion" imageSource={mate} text="Circle 1" /> {/* Change the image source as needed */}
         <CirculoComponent imageSource={mate} text="Circle 2" /> {/* Change the image source as needed */}
         <CirculoComponent imageSource={mate} text="Circle 3" /> {/* Change the image source as needed */}
         <CirculoComponent imageSource={mate} text="Circle 4" /> {/* Change the image source as needed */}
       </div>
+
       <div style={{padding: '0px 40px'}}>
         <ProgressModule
           progress={70}
