@@ -7,7 +7,7 @@ function Navbar() {
     <div className={styles.container}>
       <div className={styles.row}>
         <img src={gatito} alt='logo' className={styles.image} />
-        <h1>Learn.ai</h1>
+        <h1>LearnBuddy</h1>
       </div>
       <div className={styles.row}>
         <h3>23/09/23</h3>
