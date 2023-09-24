@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 function MvNavbar({ setIndex }) {
   const [menuIndex, setMenuIndex] = useState(0);
 
-  const menuOptions = ["Mis Bases", "Mi Comunidad", "Mi Progreso", "Descubrir"];
+  const menuOptions = ["Mis Bases", "Mi Comunidad", "Descubrir", "Mi Progreso"];
 
   const handleMenuClick = (index) => {
     setMenuIndex(index);
