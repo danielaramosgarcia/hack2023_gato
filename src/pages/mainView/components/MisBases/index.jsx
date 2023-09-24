@@ -4,7 +4,7 @@ import gatito from "../../../../assets/gatito.png";
 import ProgressModule from "./components/ProgressModule";
 import MyBasesModule from "./components/MyBasesModule";
 
-function MisBases() {
+function MisBases({ setOpen }) {
   return (
     <div className={styles.container}>
       <div className={styles.recent}>
@@ -17,7 +17,7 @@ function MisBases() {
       </div>
       <div className={styles.recent}>
         <h2>Mis Bases</h2>
-        <MyBasesModule />
+        <MyBasesModule setOpen={setOpen} />
       </div>
     </div>
   );
