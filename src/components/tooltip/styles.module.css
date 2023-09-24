@@ -1,0 +1,14 @@
+.container p {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 11px;
+  padding: 20px;
+  scale: 0;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container:hover p {
+  scale: 1;
+  opacity: 1;
+}
