@@ -8,6 +8,7 @@ import MiComunidad from "./components/MiComunidad";
 import MiProgreso from "./components/MiProgreso";
 import Descubrir from "./components/Descubrir";
 import Modal from "../../components/modal";
+
 function MainView() {
   const [index, setIndex] = useState(0);
   const [component, setComponent] = useState(<MisBases />);

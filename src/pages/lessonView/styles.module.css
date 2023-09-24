@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh; /* Set the container to take up the entire viewport height */
+    height: 90vh; /* Set the container to take up the entire viewport height */
   }
   
+
 .header {
     padding: 60px 0px 10px 40px;
     height: 15%;
