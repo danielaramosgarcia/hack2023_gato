@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-import KnowledgeBase from "./components/knowledgeBase";
+import KnowledgeBase from "../../../../../../components/knowledgeBase";
 
 function MyBasesModule({ setOpen }) {
   return (

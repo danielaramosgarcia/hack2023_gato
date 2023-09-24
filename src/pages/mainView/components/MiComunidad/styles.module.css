@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.searchBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.searchBar input {
+  width: 100%;
+}
+
+.baseContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 44px;
+  max-width: 600px;
+}
+
+.bases {
+  margin-top: 20px;
+}
+.bases h1 {
+  color: var(--titles-color);
+}
