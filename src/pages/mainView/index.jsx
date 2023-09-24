@@ -42,7 +42,7 @@ function MainView() {
 
   return (
     <>
-      {open && <Modal setOpen={setOpen} />}
+      {open && <Modal setOpen={setOpen} open={open} />}
       <div className={styles.container}>
         <Navbar />
         <MvNavbar setIndex={setIndex} />

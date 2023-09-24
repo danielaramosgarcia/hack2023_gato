@@ -4,7 +4,7 @@ import Slider from "../slider";
 import Manual from "./manual";
 import Archivo from "./Archivo";
 
-function Modal({ setOpen }) {
+function Modal({ setOpen, open }) {
   const [modalOpen, setModalOpen] = useState(false);
   const [index, setIndex] = useState(0);
   const [component, setComponent] = useState(<Manual />);
@@ -19,18 +19,16 @@ function Modal({ setOpen }) {
   };
 
   useEffect(() => {
-    if (modalOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
-      console.log("click");
+    if (open) {
+      setTimeout(() => {
+        console.log("Este mensaje aparecerá después de 2000 milisegundos");
+        setOpen(false);
+      }, 6000);
+      console.log("false");
     } else {
-      document.removeEventListener("mousedown", handleClickOutside);
-      console.log("click");
+      console.log("hola");
     }
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [modalOpen]);
+  }, [open]);
 
   useEffect(() => {
     if (index === 0) {
