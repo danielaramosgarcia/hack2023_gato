@@ -27,9 +27,9 @@ export default MyBasesModule;
 const knowledgeBases = [
   {
     index: 0,
-    title: "Aritmetica 1",
+    title: "Emprendimiento",
     description:
-      "La aritmética es una rama fundamental de las matemáticas que se enfoca en el estudio de las operaciones numéricas básicas, como la suma, la resta, la multiplicación y la división. Es la base de las matemáticas y se utiliza en la resolución de problemas cotidianos, cálculos financieros, ciencia y muchas otras áreas. La aritmética se centra en la manipulación de números y la comprensión de sus propiedades y relaciones, lo que la convierte en una habilidad esencial en la vida diaria y en la educación matemática.",
+      "El emprendimiento es el proceso de identificar oportunidades y crear un nuevo negocio o proyecto, asumiendo riesgos con el objetivo de obtener ganancias y generar valor en el mercado. Involucra la innovación, la toma de decisiones estratégicas y el esfuerzo para desarrollar y hacer crecer una empresa o iniciativa.",
     picture: "#e57373",
   },
   {

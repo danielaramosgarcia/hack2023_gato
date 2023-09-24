@@ -1,90 +1,96 @@
 .body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 90vh; /* Set the container to take up the entire viewport height */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh; /* Set the container to take up the entire viewport height */
+}
 
 .header {
-    padding: 60px 0px 10px 40px;
-    height: 15%;
-    width: 98%;
-    flex-direction: row;
-    background-color: white;
-    display: flex;
-    align-items: center; /* Vertically align items in the center */
-    justify-content: space-between; /* Space between the button and container */
-    padding: 10px;
-    
-  }
-
-  
-  .botonBack {
-    width: 8%; 
-    height: 80%; 
-    background: var(--accent-color); 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    border-radius: 20px;
-    cursor: pointer;
-    align-items: center;
-    border-color: var(--accent-color);
-  }
-
-  .containerTitulo {
-    flex-direction: column;
-    height: 60%;
-    width: 30%;
-    border-radius: 11px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background: #fff;
-    display: flex;
-    align-items: center; /* Horizontally center items */
-    text-align: center; /* Center text */
-    padding: 10px;
-  }
-  .containerTitulo p {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .main {
-    width: 887px;
-    height: 506px;
-    flex-shrink: 0;
-    border-radius: 11px;
-    background: #fff;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 30px;
-  }
-
-  .titulo{
-    size: 10px;
-  }
-
-  .containerRoad {
-    height: 100%;
-    width: auto;
-    display: flex;
-    padding: 20vh 2vh;
-    flex-direction: row; /* Arrange child elements horizontally */
-    background-image: url('../../assets/calle.jpg');
-    background-size: auto auto; /* Keep original height and repeat horizontally */
-    background-repeat: repeat-x; /* Repeat the image horizontally */
-    background-position: center center; /* Center the background image both horizontally and vertically */
-  }
-
-.image{
-    max-width: 5%; /* Ensure the image doesn't exceed the container's width */
-    max-height: auto; /* Ensure the image doesn't exceed the container's height */
-    display: block; /* Remove any extra spacing caused by inline elements */
-    margin: 0 auto; 
+  padding: 60px 0px 10px 40px;
+  height: 15%;
+  width: 98%;
+  flex-direction: row;
+  background-color: white;
+  display: flex;
+  align-items: center; /* Vertically align items in the center */
+  justify-content: space-between; /* Space between the button and container */
+  padding: 10px;
 }
-    
-  .progress {
-  width: 100%; height: 100%; background: black; border-radius: 14px;
-  }
+
+.botonBack {
+  width: 8%;
+  height: 80%;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+  border-color: var(--accent-color);
+  scale: 0.7;
+}
+
+.containerTitulo {
+  flex-direction: column;
+  width: 30%;
+  border-radius: 11px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  color: var(--titles-color);
+}
+
+.main {
+  width: 887px;
+  height: 506px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.titulo {
+  size: 10px;
+}
+
+.containerRoad {
+  height: 100%;
+  width: auto;
+  display: flex;
+  padding: 20vh 2vh;
+  flex-direction: row;
+  background-image: url("../../assets/calle.jpg");
+  background-size: auto auto;
+  background-repeat: repeat-x; /* Repeat the image horizontally */
+  background-position: center center; /* Center the background image both horizontally and vertically */
+}
+
+.image {
+  position: fixed;
+  z-index: 100;
+  height: 90px;
+  left: 860px;
+  bottom: 117px;
+}
+
+.progress {
+  width: 100%;
+  height: 100%;
+  background: black;
+  border-radius: 14px;
+}
+
+.modules {
+  display: flex;
+  position: relative;
+  bottom: 90px;
+}
+
+.spacer {
+  width: 20px;
+}
