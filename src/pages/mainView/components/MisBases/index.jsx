@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import gatito from "../../../../assets/gatito.png";
 import ProgressModule from "./components/ProgressModule";
+import MyBasesModule from "./components/MyBasesModule";
 
 function MisBases() {
   return (
@@ -13,6 +14,10 @@ function MisBases() {
           title={"Aritmetica 4 Grado para Jovenes"}
           progress={82}
         />
+      </div>
+      <div className={styles.recent}>
+        <h2>Mis Bases</h2>
+        <MyBasesModule />
       </div>
     </div>
   );
