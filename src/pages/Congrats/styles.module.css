@@ -1,0 +1,121 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-grow: 1; /* Allow the container to grow to fill the available space */
+  box-sizing: border-box;
+}
+.container input {
+  width: 15px;
+}
+.paper {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.pregunta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.botonBack {
+  position: absolute; /* Fix the element to the viewport */
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  cursor: pointer;
+  align-items: center;
+  left: 20px;
+  top: 120px;
+  border-color: var(--accent-color);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  justify-content: center;
+}
+
+.row p {
+  font-size: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px; /* Add margin at the top */
+  margin-bottom: 10px; /* Add margin at the bottom */
+  line-height: 2; /* Increase line-height for space between lines */
+  text-align: center; /* Center-align the text */
+}
+
+.image {
+  height: 200px;
+}
+
+.chat {
+  color: var(--text-color);
+  background-color: var(--light-back-color);
+  margin-left: 0px;
+  width: inherit;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 30px;
+  align-self: baseline;
+  position: relative;
+}
+
+.chat p {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.piquito {
+  position: absolute;
+  bottom: 2px;
+  left: -17px;
+}
+
+.buttonRow {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttonRow .buttonLink {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: 24px;
+  color: inherit;
+  padding: 15px;
+  padding-left: 42px;
+  padding-right: 42px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: #fff;
+  border-radius: 24px;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.buttonRow .buttonLink:hover {
+  background-color: var(--light-back-color);
+  color: var(--accent-color);
+}

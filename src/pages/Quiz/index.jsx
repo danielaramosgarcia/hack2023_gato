@@ -48,7 +48,7 @@ function Quiz() {
             );
           })}
           <div className={styles.buttonRow}>
-            <Link className={styles.buttonLink} to={"/"}>
+            <Link className={styles.buttonLink} to={"/congrats"}>
               Continuar
             </Link>
           </div>
